@@ -1,5 +1,5 @@
 # 使用 Arch 作为基础镜像
-FROM archlinux:latest
+FROM registry.cn-hangzhou.aliyuncs.com/librarch/archlinux:latest
 
 # 设置工作目录
 WORKDIR /app
