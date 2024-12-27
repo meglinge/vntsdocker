@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM registry-vpc.cn-hangzhou.aliyuncs.com/eci_open/alpine:latest
 
 # 安装必要的工具
 RUN apk add --no-cache curl tar
